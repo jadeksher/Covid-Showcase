@@ -1,0 +1,123 @@
+.container{
+    max-width: $website-width;
+    margin: auto;
+    padding: 0 1rem;
+    overflow: hidden;
+}
+
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div p{
+        color: $main-color;
+        margin-left: 1rem;
+        font-weight: bold;
+        font-weight: 700;
+    }
+}
+
+%a-shared{
+    position: absolute;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s;
+    border: none;
+    border-radius: 65px ;
+    margin-top: 1rem;
+
+}
+
+.a{
+    &-dark{
+        @extend %a-shared;
+        background-color: $light-color;
+        color: #fff;
+    }
+
+    &-light{
+        @extend %a-shared;
+        background-color: rgba(250, 86, 82, 0.15);
+        color: $light-color;
+    }
+}
+
+a[class^='a-dark']:hover{
+    background: rgba(250, 86, 82, 0.15);
+    color:$light-color;
+    border: none;
+}
+
+a[class^='a-light']:hover{
+    background: $light-color;
+    color:#fff;
+    border: none;
+}
+
+.lead{
+    font-family: 'Red Hat Display', sans-serif; 
+    font-size: 2.5rem; 
+    color: $main-color;
+    margin: 1rem 0;
+}
+.lead3{
+    color: $light-color;
+    font-family: 'Red Hat Display', sans-serif;  
+    font-size: 1.6rem;
+}
+
+.lead-p{
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 2;
+}
+
+.lead2{
+    font-family: 'Red Hat Display', sans-serif; 
+    font-size: 1.8rem; 
+    color: $main-color;
+    padding:0 10px;
+}
+
+.card{
+    position: relative;
+    background: #fff;
+    padding: 20px 20px;
+    margin: 0 10px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);    
+    border-radius: 10px;
+
+    &:after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: block;
+        content: '';
+        border-bottom: 4px solid $light-color;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+    }
+    &:hover:after{
+        transform: scale(1);
+    }
+}
+
+.section-header{
+    margin-top: 5rem;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    padding: 20px 20px 40px;
+    margin-bottom: 10px;
+
+}
+
