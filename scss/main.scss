@@ -154,15 +154,17 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         text-align: center;
         height: 100%;
         width: 100%;
         margin: 30px 20px;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.08);  
+        
 
 
         img{
-            width: 200px;
+            width: 250px;
             height: auto;
         }
 
@@ -187,7 +189,7 @@
     text-align: center;
 
     img{
-        width: 900px;
+        width: 1150px;
         height: auto;
     }
 
@@ -218,9 +220,10 @@
     
     h2:before{
         position: absolute;
-        left: 20px;
+        left: 2%;
         content: "01";
         color:$light-color;
+        font-weight: bold;
         background: rgba(250, 86, 82, 0.15);
         padding: 0.4rem 0.7rem;
         
@@ -250,8 +253,10 @@
     
     h2:before{
         position: absolute;
-        right: 510px;
+        left :47%;
         content: "02";
+        display: inline;
+        font-weight: bold;
         color:$light-color;
         background: rgba(250, 86, 82, 0.15);
         padding: 0.4rem 0.7rem;
@@ -283,8 +288,9 @@
     
     h2:before{
         position: absolute;
-        left:1px;
+        left:10px;
         content: "03";
+        font-weight: bold;
         color:$light-color;
         background: rgba(250, 86, 82, 0.15);
         padding: 0.4rem 0.7rem;
@@ -316,8 +322,9 @@
     
     h2:before{
         position: absolute;
-        right: 510px;
+        right: 880px;
         content: "04";
+        font-weight: bold;
         color:$light-color;
         background: rgba(250, 86, 82, 0.15);
         padding: 0.4rem 0.7rem;
@@ -344,9 +351,9 @@
     .text-input{
     
         width: 100%;
-        border: 1px solid #ccc;
+        border: none;
         border-radius: 100px;
-        padding: 20px 150px 20px 50px; 
+        padding: 30px 300px 30px 60px; 
         line-height: 1;
         outline: none;
         text-align: left;
@@ -359,14 +366,20 @@
 
   .btn{
     position: absolute;
-    top:5px;
-    right: 5px;
+    top:2.9px;
+    right: 4px;
     background: $light-color;
     color: #fff;
-    padding: 1rem 2rem;
+    padding: 1.5rem 4rem;
     border: none;
     align-items: center;
     border-radius: 65px;
+    font-size: 1.3rem;
+
+    &:hover{
+        background: rgba(250, 86, 82, 0.15) ;
+        color: $light-color;
+    }
   }
 
 
@@ -390,7 +403,14 @@
                 
             }
             a{
-                font-weight: 550;
+                font-weight: 400;
+                font-family: 'Gelion Regular', sans-serif;
+                font-size: 20px;
+
+                &:hover{
+                    color: $light-color;
+                    transition: 0.3s ease-in-out;
+                }
             }
         }
 
@@ -400,9 +420,12 @@
         i{
             padding: 0 0.6rem;
             color: $main-color;
+            transition: all 0.5s ease-in-out;
+
 
             &:hover{
                 color: $light-color;
+                cursor: pointer;
             }
         }
         
