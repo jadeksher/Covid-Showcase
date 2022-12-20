@@ -12,10 +12,11 @@
     justify-content: center;
 
     div p{
+        font-family:'Red Hat Display', sans-serif; 
         color: $main-color;
         margin-left: 1rem;
-        font-weight: bold;
         font-weight: 700;
+        font-size: 19px;
     }
 }
 

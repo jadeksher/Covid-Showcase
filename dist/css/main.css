@@ -9,10 +9,11 @@
   align-items: center;
   justify-content: center; }
   .left-nav div p {
+    font-family: 'Red Hat Display', sans-serif;
     color: #035755;
     margin-left: 1rem;
-    font-weight: bold;
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 19px; }
 
 .a-dark, .a-light {
   position: absolute;
@@ -133,30 +134,32 @@ ul {
     #main-nav ul li:nth-child(-n+4) {
       padding: 1rem 1.5rem; }
       #main-nav ul li:nth-child(-n+4) a {
-        text-decoration: none; }
+        text-decoration: none;
+        font-family: 'Gelion Regular', sans-serif;
+        font-size: 18px;
+        font-weight: 400; }
         #main-nav ul li:nth-child(-n+4) a:hover {
           color: #FA5652; }
         #main-nav ul li:nth-child(-n+4) a.current {
-          color: #FA5652;
-          border-bottom: 2px solid #FA5652; }
+          border-color: #FA5652; }
         #main-nav ul li:nth-child(-n+4) a:after {
           display: block;
           content: '';
           border-bottom: 2px solid #FA5652;
           transform: scaleX(0);
-          transition: transform 250ms ease-in-out; }
+          transition: transform 0.5s ease-in-out; }
         #main-nav ul li:nth-child(-n+4) a:hover:after {
           transform: scale(1); }
     #main-nav ul li:last-child a {
       border: 2px solid #FA5652;
-      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-      padding: 1rem 2rem;
+      padding: 0.7rem 1.4rem;
       border-radius: 46px;
       text-align: center;
       color: #FA5652; }
       #main-nav ul li:last-child a:hover {
         background: #FA5652;
-        color: #fff; }
+        color: #fff;
+        transition: all 1s ease-in-out; }
 
 .home-div {
   display: flex;
