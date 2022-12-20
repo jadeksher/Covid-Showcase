@@ -1,5 +1,5 @@
 .container {
-  max-width: 1280px;
+  max-width: 1700px;
   margin: auto;
   padding: 0 1rem;
   overflow: hidden; }
@@ -18,7 +18,7 @@
 .a-dark, .a-light {
   position: absolute;
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   transition: all 0.5s;
   border: none;
   border-radius: 65px;
@@ -54,6 +54,7 @@ a[class^='a-light']:hover {
   font-size: 1.6rem; }
 
 .lead-p {
+  color: #4B4F51;
   text-transform: capitalize;
   font-weight: 400;
   padding-bottom: 20px;
@@ -165,10 +166,10 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 5rem; }
   .home-div .home-img .image1 {
-    width: 750px;
+    width: 1177px;
     height: auto; }
 
 .home2-div {
