@@ -134,14 +134,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 5rem;
 
     .home-img{
    
 
         .image2{
-            width: 600px;
+            width: 840px;
             height: auto;
         }
     }
@@ -157,6 +157,7 @@
         justify-content: center;
         text-align: center;
         height: 100%;
+        width: 100%;
         margin: 30px 20px;
 
 

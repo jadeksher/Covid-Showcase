@@ -59,14 +59,16 @@ a[class^='a-light']:hover{
 
 .lead{
     font-family: 'Red Hat Display', sans-serif; 
-    font-size: 2.5rem; 
+    font-size: 52px; 
+    font-weight: 700;
     color: $main-color;
     margin: 1rem 0;
 }
 .lead3{
     color: $light-color;
     font-family: 'Red Hat Display', sans-serif;  
-    font-size: 1.6rem;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .lead-p{
@@ -78,8 +80,9 @@ a[class^='a-light']:hover{
 }
 
 .lead2{
-    font-family: 'Red Hat Display', sans-serif; 
-    font-size: 1.8rem; 
+    font-family: 'Gelion Regular', sans-serif; 
+    font-size: 36px; 
+    font-weight: 500;
     color: $main-color;
     padding:0 10px;
 }

@@ -1,5 +1,5 @@
 .container {
-  max-width: 1700px;
+  max-width: 1800px;
   margin: auto;
   padding: 0 1rem;
   overflow: hidden; }
@@ -44,14 +44,16 @@ a[class^='a-light']:hover {
 
 .lead {
   font-family: 'Red Hat Display', sans-serif;
-  font-size: 2.5rem;
+  font-size: 52px;
+  font-weight: 700;
   color: #035755;
   margin: 1rem 0; }
 
 .lead3 {
   color: #FA5652;
   font-family: 'Red Hat Display', sans-serif;
-  font-size: 1.6rem; }
+  font-size: 32px;
+  font-weight: 700; }
 
 .lead-p {
   color: #4B4F51;
@@ -61,8 +63,9 @@ a[class^='a-light']:hover {
   line-height: 2; }
 
 .lead2 {
-  font-family: 'Red Hat Display', sans-serif;
-  font-size: 1.8rem;
+  font-family: 'Gelion Regular', sans-serif;
+  font-size: 36px;
+  font-weight: 500;
   color: #035755;
   padding: 0 10px; }
 
@@ -176,10 +179,10 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 5rem; }
   .home2-div .home-img .image2 {
-    width: 600px;
+    width: 840px;
     height: auto; }
 
 .home3-div .flex-items {
@@ -189,6 +192,7 @@ ul {
   justify-content: center;
   text-align: center;
   height: 100%;
+  width: 100%;
   margin: 30px 20px; }
   .home3-div .flex-items img {
     width: 200px;
