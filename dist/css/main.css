@@ -172,6 +172,7 @@ ul {
   justify-content: space-between;
   margin-top: 5rem; }
   .home-div .home-text {
+    max-width: 650px;
     margin-left: 5rem; }
   .home-div .home-img .image1 {
     width: 900px;
