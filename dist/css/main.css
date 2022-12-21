@@ -13,7 +13,7 @@
     font-weight: 700;
     font-size: 19px; }
   .left-nav #logo {
-    margin-left: 1rem; }
+    margin-left: 0.5rem; }
 
 .a-dark, .a-light {
   position: absolute;
@@ -159,7 +159,7 @@ ul {
       border-radius: 46px;
       text-align: center;
       color: #FA5652;
-      margin-right: 1rem; }
+      margin-right: 0.5rem; }
       #main-nav ul li:last-child a:hover {
         background: #FA5652;
         color: #fff;
@@ -182,23 +182,23 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 5rem;
-  max-width: 1600px; }
+  justify-content: center;
+  margin-top: 5rem; }
+  .home2-div .home-text {
+    max-width: 650px; }
   .home2-div .home-img .image2 {
     width: 840px;
     height: auto;
-    margin-right: 3rem; }
+    margin-right: 5rem; }
 
 .home3-div .flex-items {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   height: 100%;
   width: 100%;
-  margin: 30px 20px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.08); }
   .home3-div .flex-items img {
     width: 250px;
