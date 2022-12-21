@@ -116,6 +116,7 @@
     justify-content: space-between;
     margin-top: 5rem;
     // text-align: center;
+    max-width: 2300px;
 
     .home-text{
         margin-left: 5rem;
@@ -240,6 +241,7 @@
         width: 45px;
         text-align: center;
         border-radius: 50%;
+        display: flex;
         }
     }
     .row1{
@@ -265,14 +267,15 @@
     
     h2:before{
         position: absolute;
-        left :45%;
         content: "02";
-        display: inline;
+        left :45%;
+        display: flex;
         font-weight: bold;
         color:$light-color;
         background: rgba(250, 86, 82, 0.15);
         padding: 0.4rem 0.7rem;
-        
+        width: 45px;
+        text-align: center;
         border-radius: 50%;
         }
     }
@@ -306,8 +309,10 @@
         color:$light-color;
         background: rgba(250, 86, 82, 0.15);
         padding: 0.4rem 0.7rem;
-        
+        width: 45px;
+        text-align: center;
         border-radius: 50%;
+        display: flex;
         }
     }
 
@@ -339,9 +344,11 @@
         font-weight: bold;
         color:$light-color;
         background: rgba(250, 86, 82, 0.15);
-        padding: 0.4rem 0.7rem;
-        
+        padding: 0.5rem 0.7rem;
+        width: 45px;
+        text-align: center;
         border-radius: 50%;
+        display: flex;
         }
     }
     
@@ -413,6 +420,7 @@
             li{
                 padding: 0 1rem;
                 
+                
             }
             a{
                 font-weight: 400;
@@ -430,6 +438,7 @@
 
     .social{
         i{
+            margin-right: 1rem;
             padding: 0 0.6rem;
             color: $main-color;
             transition: all 0.2s ease-in-out;
