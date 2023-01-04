@@ -1,19 +1,20 @@
-COVID-19 Showcase Website
-Welcome to the COVID-19 Showcase Website! This website aims to provide information and resources related to the COVID-19 pandemic, including the latest news, statistics, and guidance from health authorities.
+COVID-19 Showcase
+
+Welcome to the COVID-19 Showcase! This website is dedicated to providing information on the COVID-19 pandemic, including current statistics, updates, and resources for staying safe and healthy.
 
 Features
-Latest COVID-19 news and updates
-Interactive COVID-19 statistics and data visualizations
-Links to reliable sources of information and guidance
-Tips and resources for staying safe and healthy during the pandemic
-Getting Started
-To run the COVID-19 Showcase Website locally, you will need to have the following software installed:
 
+Statistics: Stay up to date on the latest numbers of confirmed cases, deaths, and recoveries from COVID-19 around the world.
+News: Stay informed on the latest developments in the COVID-19 pandemic, including new research, vaccine updates, and government responses.
+Resources: Find helpful information on how to protect yourself and others from infection, as well as tips for maintaining mental health during the pandemic.
+About: Learn more about COVID-19, including its symptoms, transmission, and prevention.
 Contributing
-We welcome contributions to the COVID-19 Showcase Website. If you have any ideas or suggestions, or if you find any bugs, please open an issue or submit a pull request.
+We welcome contributions to the COVID-19 Showcase! If you have suggestions for improving the website or have information that you would like to see included, please feel free to submit a pull request or open an issue on our GitHub repository.
 
 License
-The COVID-19 Showcase Website is licensed under the MIT License.
 
-Disclaimer
-The information provided on this website is for general informational purposes only and is not intended as medical advice. Please consult with a healthcare professional for specific medical advice, diagnosis, or treatment.
+The COVID-19 Showcase is licensed under the MIT License.
+
+Note
+
+Please note that the information provided on this website is for informational purposes only and is not intended to be a substitute for professional medical advice, diagnosis, or treatment. It is important to stay up to date on the latest developments in the COVID-19 pandemic and to follow the guidance of health authorities in your area.
