@@ -60,7 +60,7 @@ a[class^='a-light']:hover {
   text-transform: capitalize;
   font-weight: 400;
   padding-bottom: 20px;
-  line-height: 2; }
+  line-height: 3rem; }
 
 .lead2 {
   font-family: 'Gelion Regular', sans-serif;
@@ -129,7 +129,7 @@ ul {
 #main-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 1rem; }
+  padding: 1rem 10rem; }
   #main-nav ul {
     display: flex;
     align-items: center;
@@ -182,12 +182,12 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 5rem; }
   .home2-div .home-text {
     max-width: 650px; }
   .home2-div .home-img .image2 {
-    width: 840px;
+    width: 950px;
     height: auto;
     margin-right: 5rem; }
 
@@ -239,7 +239,7 @@ ul {
     padding-left: 2rem; }
     .home5-div .a h2:before {
       position: absolute;
-      left: 3%;
+      left: 15%;
       content: "01";
       color: #FA5652;
       font-weight: bold;
@@ -268,7 +268,7 @@ ul {
     .home5-div .b h2:before {
       position: absolute;
       content: "02";
-      left: 45%;
+      left: 38%;
       display: flex;
       font-weight: bold;
       color: #FA5652;
@@ -295,7 +295,7 @@ ul {
     padding-left: 2rem; }
     .home5-div .c h2:before {
       position: absolute;
-      left: 3%;
+      left: 15%;
       content: "03";
       font-weight: bold;
       color: #FA5652;
@@ -323,7 +323,7 @@ ul {
     padding-left: 2rem; }
     .home5-div .d h2:before {
       position: absolute;
-      right: 50%;
+      left: 38%;
       content: "04";
       font-weight: bold;
       color: #FA5652;
@@ -346,7 +346,7 @@ ul {
     border: none;
     border-radius: 100px;
     padding: 30px 300px 30px 60px;
-    line-height: 1;
+    line-height: 1rem;
     outline: none;
     text-align: left; }
   .home6-div .em {
@@ -354,11 +354,11 @@ ul {
     position: relative; }
   .home6-div .btn {
     position: absolute;
-    top: 2.9px;
-    right: 4px;
+    top: 0;
+    right: 0px;
     background: #FA5652;
     color: #fff;
-    padding: 1.5rem 4rem;
+    padding: 1.65rem 4rem;
     border: none;
     align-items: center;
     border-radius: 65px;
